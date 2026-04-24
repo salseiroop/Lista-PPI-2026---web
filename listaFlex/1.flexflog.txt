@@ -14,3 +14,18 @@ Código:
 .yellow {
   "order: 2"
 }
+
+2- Level 16 (.box2)
+Nesse outro level tem 4 sapos verdes e um amarelo no meio na coluna de cima, e o amarelo precisa descer na mesma coluna todas as linhas.
+Selecionado o amarelo é preciso usar o /align-self que seleciona o item alinhado nas colunas, e logo após o flex-end, que pega o item selecionado
+deixa ele centralizado e muda a posição dele nas linhas fazendo com que o sapo desça até o final.
+
+Código:
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+"align-self: flex-end"
+}
